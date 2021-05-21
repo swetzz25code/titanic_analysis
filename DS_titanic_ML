@@ -1,0 +1,7 @@
+import seaborn as sns;
+import pandas as pd;
+
+#load the titanic data set
+titanic = sns.load_dataset ('titanic');
+
+print (titanic.head());
